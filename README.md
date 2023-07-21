@@ -1,4 +1,7 @@
 # Secret Manager Password Backup Script
+
+If you want the output in JSON format, you can use the script called function-secret-json.py.
+
 This Python script performs the backup of passwords stored in the Secret Manager. It is essential to ensure the correct usage of environment variables to avoid any connection issues with your account.
 
 The Secret Manager is a critical tool for safeguarding sensitive information, such as passwords, API keys, and access tokens. By backing up these secrets, you ensure the preservation of data in case of accidental loss or the need for restoration.
